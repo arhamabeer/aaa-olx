@@ -149,34 +149,4 @@ class AddAd extends React.Component {
 export default withRouter(AddAd)
 
 
-    // const urls = [];
-
-    // async function uploadImage(){
-    // for (var i = 0; i < img.length; i++){
-    // const response = await ref.put(img[i]);
-    // const url = await ref.getDownloadURL();
-    // urls.push(url)
-    // }
-    // }
-
-
-
-
-
-
-    // function test(){
-
-
-    //     firebase.database().ref("users/izaan").get()
-    //         .then(response => {
-    //             firebase.database().ref("users/arham").get()
-    //                 .then(response2 => {
-
-    //                })
-    //         })
-
-
-    //     const response2=  await firebase.database().ref("users/arham").get();
-
-    //     console.log(response.val())
-    // }const response = await firebase.database().ref("users/izaan").get();
+ 
